@@ -1,0 +1,15 @@
+<?php
+    //connessione con approccio orientata agli oggetti
+    $servername = "localhost";
+    $username = "root";
+    $password = "";
+    $database = "test";
+
+    $conn = new mysqli($servername, $username, $password, $database);
+
+    if ($conn->connect_error) {
+        die("Connessione fallita: " . $conn->connect_error);
+    } else {
+        echo "Connessione riuscita con approccio orientato agli oggetti!";
+    }
+?>
