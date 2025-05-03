@@ -31,3 +31,5 @@ oppure fare il Download del file .zip
 
     - aprire VSC nella directory C:\xampp\htdocs\php_script_introduttivi
     - modificare i file e testarli come descritto al punto 2
+
+4. Tutti gli esempi sono containerizzati e scaricabili da https://hub.docker.com/repositories/m76g
